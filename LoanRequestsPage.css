@@ -1,0 +1,57 @@
+/* LoanRequestsPage.css – גרסה מעוצבת כדשבורד */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+  }
+  
+  .table-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    direction: rtl;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: right;
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  .loan-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .loan-table th,
+  .loan-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+    text-align: right;
+    vertical-align: top;
+  }
+  
+  .loan-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .loan-table td {
+    white-space: pre-wrap;
+    max-width: 400px;
+    word-break: break-word;
+    line-height: 1.6;
+  }
+  
+  .loan-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
